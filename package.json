@@ -1,6 +1,6 @@
 {
   "name": "archnemesis_recipe_browser",
-  "homepage": "https://rimmu.github.io/archnemesis_recipe_browser",
+  "homepage": "https://rimmu.github.io/archnemesis-recipe-browser",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
