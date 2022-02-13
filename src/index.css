@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+  padding: 0;
+  color: #353535;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  height: 100%;
+}

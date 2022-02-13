@@ -1,0 +1,753 @@
+{
+  "nodes": [
+    {
+      "nodeId": 2,
+      "name": "Trickster",
+      "monsterDesc": "Monster has damage avoidance. Monster periodically flees.",
+      "rewardType": ["currency", "unique", "divination"],
+      "rewardDesc": null,
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 3,
+      "name": "Overcharged",
+      "monsterDesc": "Monster grants charges to itself and allies over time",
+      "rewardType": ["jewellery", "jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [2, 16],
+      "isBasic": true
+    },
+    {
+      "nodeId": 4,
+      "name": "Echoist",
+      "monsterDesc": "Monster repeats skills additional times",
+      "rewardType": ["item", "currency"],
+      "rewardDesc": null,
+      "usedInRecipes": [2, 8, 36],
+      "isBasic": true
+    },
+    {
+      "nodeId": 5,
+      "name": "Deadeye",
+      "monsterDesc": "Monster is accurate and applies marks",
+      "rewardType": ["armour", "jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [3, 23],
+      "isBasic": true
+    },
+    {
+      "nodeId": 6,
+      "name": "Vampiric",
+      "monsterDesc": "Monster has augmented life leech powers",
+      "rewardType": ["fossil"],
+      "rewardDesc": null,
+      "usedInRecipes": [3, 10],
+      "isBasic": true
+    },
+    {
+      "nodeId": 7,
+      "name": "Assassin",
+      "monsterDesc": "Monster has augmented critical powers and has shroud walker",
+      "rewardType": ["currency", "currency"],
+      "rewardDesc": null,
+      "usedInRecipes": [2, 13],
+      "isBasic": false
+    },
+    {
+      "nodeId": 8,
+      "name": "Empowered Elements",
+      "monsterDesc": "Monster cycles between imbued damage of a particular type and immunity to all other damage types",
+      "rewardType": ["unique", "unique"],
+      "rewardDesc": "Rewards are rolled 1 additional time, choosing the rarest result",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 9,
+      "name": "Evocationist",
+      "monsterDesc": "Monster is imbued with elemental damage, resistances and ailments",
+      "rewardType": ["item", "weapon", "armour", "jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [4],
+      "isBasic": false
+    },
+    {
+      "nodeId": 10,
+      "name": "Steel-infused",
+      "monsterDesc": "Monster is imbued with physical damage and physical damage reduction",
+      "rewardType": ["weapon"],
+      "rewardDesc": null,
+      "usedInRecipes": [4, 6],
+      "isBasic": true
+    },
+    {
+      "nodeId": 11,
+      "name": "Chaosweaver",
+      "monsterDesc": "Monster is imbued with chaos damage and resistance",
+      "rewardType": ["gem"],
+      "rewardDesc": null,
+      "usedInRecipes": [4, 8, 12],
+      "isBasic": true
+    },
+    {
+      "nodeId": 12,
+      "name": "Flameweaver",
+      "monsterDesc": "Monster is imbued with fire damage and resistance",
+      "rewardType": ["weapon"],
+      "rewardDesc": null,
+      "usedInRecipes": [5, 26],
+      "isBasic": true
+    },
+    {
+      "nodeId": 13,
+      "name": "Frostweaver",
+      "monsterDesc": "Monster is imbued with cold damage and resistance",
+      "rewardType": ["armour"],
+      "rewardDesc": null,
+      "usedInRecipes": [5, 32],
+      "isBasic": true
+    },
+    {
+      "nodeId": 14,
+      "name": "Stormweaver",
+      "monsterDesc": "Monster is imbued with lightning damage and resistance",
+      "rewardType": ["jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [5, 19],
+      "isBasic": true
+    },
+    {
+      "nodeId": 15,
+      "name": "Treant Horde",
+      "monsterDesc": "Monster's minions are replaced with powerful treants. Some damage taken from the monster is split between the Treants",
+      "rewardType": ["item"],
+      "rewardDesc": "Monster's Minions drop a randomly-chosen reward type",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 16,
+      "name": "Toxic",
+      "monsterDesc": "Monster has augmented poison powers",
+      "rewardType": ["item", "gem"],
+      "rewardDesc": null,
+      "usedInRecipes": [6, 15],
+      "isBasic": true
+    },
+    {
+      "nodeId": 17,
+      "name": "Sentinel",
+      "monsterDesc": "Monster is imbued with Block and Spell Block. Monster triggers Reckoning when hit",
+      "rewardType": ["armour", "armour"],
+      "rewardDesc": null,
+      "usedInRecipes": [6, 18, 33],
+      "isBasic": true
+    },
+    {
+      "nodeId": 18,
+      "name": "Temporal Bubble",
+      "monsterDesc": "Monster is protected by a Temporal Bubble that severely slows those in it and cannot be damaged by those outside of it",
+      "rewardType": ["heist", "expedition"],
+      "rewardDesc": null,
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 19,
+      "name": "Juggernaut",
+      "monsterDesc": "Monster cannot be Slowed or Stunned. Monster gains Endurance Charges",
+      "rewardType": ["harbinger"],
+      "rewardDesc": null,
+      "usedInRecipes": [7, 33],
+      "isBasic": true
+    },
+    {
+      "nodeId": 20,
+      "name": "Hexxer",
+      "monsterDesc": "Monster is Hexproof. Monster is followed by a Hexing Effigy that createds Hexing areas",
+      "rewardType": ["essence", "essence"],
+      "rewardDesc": null,
+      "usedInRecipes": [7, 11],
+      "isBasic": false
+    },
+    {
+      "nodeId": 21,
+      "name": "Arcane Buffer",
+      "monsterDesc": "Monster has augmented Energy Shield powers and releases a stunning nowa when Energy Shield breaks",
+      "rewardType": ["essence"],
+      "rewardDesc": null,
+      "usedInRecipes": [7, 20],
+      "isBasic": true
+    },
+    {
+      "nodeId": 22,
+      "name": "Permafrost",
+      "monsterDesc": "Monster has augmented Freeze and Chill powers",
+      "rewardType": ["item", "armour"],
+      "rewardDesc": null,
+      "usedInRecipes": [9, 18],
+      "isBasic": true
+    },
+    {
+      "nodeId": 23,
+      "name": "Crystal-skinned",
+      "monsterDesc": "Monster triggers the creation of Crystals when hit. Crystals explode when the Monster dies",
+      "rewardType": ["harbinger", "harbinger"],
+      "rewardDesc": null,
+      "usedInRecipes": null,
+      "isBasic": false
+    },    
+    {
+      "nodeId": 24,
+      "name": "Rejuvenating",
+      "monsterDesc": "Monster has Life Regeneration. Periodically releases a wave that heals nearby allies and prevents enemy Life and Energy Shield recovery",
+      "rewardType": ["currency"],
+      "rewardDesc": "Rewards are rolled 1 additional time, choosing the rarest result",
+      "usedInRecipes": [9, 25],
+      "isBasic": false
+    },
+    {
+      "nodeId": 25,
+      "name": "Berserker",
+      "monsterDesc": "Monster enrages as it loses Life",
+      "rewardType": ["unique"],
+      "rewardDesc": null,
+      "usedInRecipes": [9, 28],
+      "isBasic": true
+    },
+    {
+      "nodeId": 26,
+      "name": "Gargantuan",
+      "monsterDesc": "Monster is massive, granting more Life, Area of Effect, and Damage",
+      "rewardType": ["currency"],
+      "rewardDesc": null,
+      "usedInRecipes": [10, 22, 34],
+      "isBasic": true
+    },
+    {
+      "nodeId": 27,
+      "name": "Effigy",
+      "monsterDesc": "Monster creates and Effigy of the player. Damage dealt to the Effigy is also reflected to the bonded player",
+      "rewardType": ["divination", "divination"],
+      "rewardDesc": "Rewards are rolled 1 additional time, choosing the rarest result",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 28,
+      "name": "Malediction",
+      "monsterDesc": "Monster has a weakening Aura",
+      "rewardType": ["divination"],
+      "rewardDesc": null,
+      "usedInRecipes": [11, 23],
+      "isBasic": true
+    },
+    {
+      "nodeId": 29,
+      "name": "Corrupter",
+      "monsterDesc": "Monster inflicts Corrupted Blood on Hit and when Hit. Minions create Corrupted Blood Bubbles on death",
+      "rewardType": ["abyss", "abyss"],
+      "rewardDesc": "Items dropped from the Monster and its Minions are Corrupted",
+      "usedInRecipes": [11, 24],
+      "isBasic": false
+    },
+    {
+      "nodeId": 30,
+      "name": "Bloodletter",
+      "monsterDesc": "Monster has augmented Bleed powers. Monster Maims nearby enemies",
+      "rewardType": ["weapon", "jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [12, 15],
+      "isBasic": true
+    },
+    {
+      "nodeId": 31,
+      "name": "Arakaali-touched",
+      "monsterDesc": "Monster uses the abilities of Arakaali",
+      "rewardType": ["divination"],
+      "rewardDesc": "All Reward Types are Divination Cards",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 32,
+      "name": "Corpse Detonator",
+      "monsterDesc": "Monster detonates nearby Corpses. Monster periodically creates Corpses",
+      "rewardType": ["divination", "divination"],
+      "rewardDesc": null,
+      "usedInRecipes": [13, 24],
+      "isBasic": false
+    },
+    {
+      "nodeId": 33,
+      "name": "Necromancer",
+      "monsterDesc": "Monster can raise Undead. Minions are empowered and revive shortly after dying",
+      "rewardType": ["item"],
+      "rewardDesc": "Rewards are rolled 2 additional times, choosing the rarest result",
+      "usedInRecipes": [14, 22, 34],
+      "isBasic": false
+    },
+    {
+      "nodeId": 34,
+      "name": "Bombardier",
+      "monsterDesc": "Monster has augmented Projectile powers and periodically unleashes a barrage or mortars",
+      "rewardType": ["weapon", "armour"],
+      "rewardDesc": null,
+      "usedInRecipes": [16],
+      "isBasic": true
+    },
+    {
+      "nodeId": 35,
+      "name": "Incendiary",
+      "monsterDesc": "Monster has augmented Ignite powers",
+      "rewardType": ["item", "weapon"],
+      "rewardDesc": null,
+      "usedInRecipes": [14, 29],
+      "isBasic": true
+    },
+    {
+      "nodeId": 36,
+      "name": "Entangler",
+      "monsterDesc": "Monster creates Thorned Vines that slow and deal Chaos Damage over time",
+      "rewardType": ["fossil", "fossil"],
+      "rewardDesc": null,
+      "usedInRecipes": [13, 21],
+      "isBasic": false
+    },
+    {
+      "nodeId": 37,
+      "name": "Brine King-touched",
+      "monsterDesc": "Monster uses the abilities of the Brine King",
+      "rewardType": ["armour", "armour", "armour"],
+      "rewardDesc": "Rewards are rolled 6 additional times, choosing the rarest result",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 38,
+      "name": "Ice Prison",
+      "monsterDesc": "Monster periodically entraps players in a cage of ice",
+      "rewardType": ["armour", "armour"],
+      "rewardDesc": "Rewards are rolled 1 additional time, choosing the rarest result",
+      "usedInRecipes": [17],
+      "isBasic": false
+    },
+    {
+      "nodeId": 39,
+      "name": "Storm Strider",
+      "monsterDesc": "Monster leaves Shocking Ground in its wake and spawns Lightning Mirages when hit. Minions create Storm Bearers on death",
+      "rewardType": ["jewellery", "jewellery", "jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [17],
+      "isBasic": false
+    },
+    {
+      "nodeId": 40,
+      "name": "Hasted",
+      "monsterDesc": "Monster is faster",
+      "rewardType": ["item"],
+      "rewardDesc": null,
+      "usedInRecipes": [19, 26, 32],
+      "isBasic": true
+    },
+    {
+      "nodeId": 41,
+      "name": "Heralding Minions",
+      "monsterDesc": "Monster's minions summon invulnerable Lightning Totems on death",
+      "rewardType": ["fragment", "fragment"],
+      "rewardDesc": null,
+      "usedInRecipes": [17],
+      "isBasic": false
+    },
+    {
+      "nodeId": 42,
+      "name": "Dynamo",
+      "monsterDesc": "Monster augmented Shock powers",
+      "rewardType": ["item", "jewellery"],
+      "rewardDesc": null,
+      "usedInRecipes": [20, 37],
+      "isBasic": true
+    },
+    {
+      "nodeId": 43,
+      "name": "Shakari-touched",
+      "monsterDesc": "Monster uses the abilities of Shakari",
+      "rewardType": ["unique"],
+      "rewardDesc": "All reward types are Uniques",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 44,
+      "name": "Soul Eater",
+      "monsterDesc": "Monster empowers when nearby allies die. Priodically summons Phantasms",
+      "rewardType": ["map", "map"],
+      "rewardDesc": null,
+      "usedInRecipes": [21],
+      "isBasic": false
+    },
+    {
+      "nodeId": 45,
+      "name": "Soul Conduit",
+      "monsterDesc": "On death, Monster and nearby allies are revived",
+      "rewardType": ["map"],
+      "rewardDesc": null,
+      "usedInRecipes": [22, 36],
+      "isBasic": true
+    },
+    {
+      "nodeId": 46,
+      "name": "Drought Bringer",
+      "monsterDesc": "Monster disables Flask effects on Hit. Monster has an Aura that drains Flask charges and prevents gaining Flask charges",
+      "rewardType": ["labyrinth", "labyrinth"],
+      "rewardDesc": null,
+      "usedInRecipes": [21],
+      "isBasic": false
+    },
+    {
+      "nodeId": 47,
+      "name": "Kitava-touched",
+      "monsterDesc": "Monster uses the abilities of Kitava",
+      "rewardType": ["item"],
+      "rewardDesc": "Rewards are doubled",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 48,
+      "name": "Abberath-touched",
+      "monsterDesc": "Monster uses the abilities of Abberath",
+      "rewardType": ["jewellery", "jewellery", "map"],
+      "rewardDesc": "Rewards are rolled 4 additional times, choosing the rarest result",
+      "usedInRecipes": [24],
+      "isBasic": false
+    },
+    {
+      "nodeId": 49,
+      "name": "Tukohama-touched",
+      "monsterDesc": "Monster uses the abilities of Tukohama",
+      "rewardType": ["weapon", "weapon", "fragment"],
+      "rewardDesc": "Rewards are rolled 4 additional times, choosing the rarest result",
+      "usedInRecipes": [24],
+      "isBasic": false
+    },
+    {
+      "nodeId": 50,
+      "name": "Flame Strider",
+      "monsterDesc": "Monster leaves Burning Ground in its wake. Minions create Flame Bearers on death",
+      "rewardType": ["weapon", "weapon", "weapon"],
+      "rewardDesc": null,
+      "usedInRecipes": [25],
+      "isBasic": false
+    },
+    {
+      "nodeId": 51,
+      "name": "Frenzied",
+      "monsterDesc": "Monster and allies periodically Enrage",
+      "rewardType": ["item", "unique"],
+      "rewardDesc": null,
+      "usedInRecipes": [25, 28],
+      "isBasic": true
+    },
+    {
+      "nodeId": 52,
+      "name": "Bonebreaker",
+      "monsterDesc": "Monster has augmented Stun Powers. Monster Hits are slower and can't be evaded",
+      "rewardType": ["item", "weapon"],
+      "rewardDesc": null,
+      "usedInRecipes": [27, 29],
+      "isBasic": true
+    },
+    {
+      "nodeId": 53,
+      "name": "Executioner",
+      "monsterDesc": "Monster gains Damage based on missing enemy Life. Monster has an Aura that prevents enemies recovering Life and Energy Shield above 50%",
+      "rewardType": ["legion", "breach"],
+      "rewardDesc": null,
+      "usedInRecipes": [27, 34],
+      "isBasic": false
+    },
+    {
+      "nodeId": 54,
+      "name": "Magma Barrier",
+      "monsterDesc": "Monster is protected by a Magmatic shield that explodes when depleted. Monster periodically createsw Volatile Flamebloods",
+      "rewardType": ["weapon", "weapon"],
+      "rewardDesc": "Rewards are rolled 1 additional time, choosing the rarest result",
+      "usedInRecipes": [27, 35],
+      "isBasic": false
+    },
+    {
+      "nodeId": 55,
+      "name": "Innocence-touched",
+      "monsterDesc": "Monster uses the abilities of Innocence",
+      "rewardType": ["currency", "currency", "currency"],
+      "rewardDesc": "All Reward Types are Currency",
+      "usedInRecipes": null,
+      "isBasic": false
+    },
+    {
+      "nodeId": 56,
+      "name": "Lunaris-touched",
+      "monsterDesc": "Monster uses the abilities of Lunaris",
+      "rewardType": ["unique"],
+      "rewardDesc": "All Reward Types have an additional reward",
+      "usedInRecipes": [30],
+      "isBasic": false
+    },
+    {
+      "nodeId": 57,
+      "name": "Solaris-touched",
+      "monsterDesc": "Monster uses the abilities of Solaris",
+      "rewardType": ["scarab"],
+      "rewardDesc": "All Reward Types have an additional reward",
+      "usedInRecipes": [30],
+      "isBasic": false
+    },
+    {
+      "nodeId": 58,
+      "name": "Mirror Image",
+      "monsterDesc": "Monster can create illusions of itself",
+      "rewardType": ["scarab"],
+      "rewardDesc": "Rewards are rolled 2 additional times, choosing the rarest result",
+      "usedInRecipes": [30],
+      "isBasic": false
+    },
+    {
+      "nodeId": 59,
+      "name": "Mana Siphoner",
+      "monsterDesc": "Monster is surrounded by a ring that deals Lightning Damage over time as well as draining mana",
+      "rewardType": ["jewellery", "jewellery"],
+      "rewardDesc": "Rewards are rolled 1 additional time, choosing the rarest result",
+      "usedInRecipes": [30],
+      "isBasic": false
+    },
+    {
+      "nodeId": 60,
+      "name": "Invulnerable",
+      "monsterDesc": "Monster and its Minions periodically become immune to all Damage. Minions cannot die while Monster is alive",
+      "rewardType": ["delirium", "metamorph"],
+      "rewardDesc": null,
+      "usedInRecipes": [31, 35],
+      "isBasic": false
+    },
+    {
+      "nodeId": 61,
+      "name": "Consecrator",
+      "monsterDesc": "Monster periodically creates Consecrated Ground, healing allies and making them immune to curses and ailments",
+      "rewardType": ["fragment"],
+      "rewardDesc": null,
+      "usedInRecipes": [33, 37],
+      "isBasic": true
+    },
+    {
+      "nodeId": 62,
+      "name": "Empowering Minions",
+      "monsterDesc": "Monster's minions are empowered. Minions empower the Monster with additional modifiers on death",
+      "rewardType": ["blight", "ritual"],
+      "rewardDesc": null,
+      "usedInRecipes": [31, 35],
+      "isBasic": false
+    },
+    {
+      "nodeId": 63,
+      "name": "Frost Strider",
+      "monsterDesc": "Monster leaves Chilling Ground in its wake. Minions create Frost Bearers on death",
+      "rewardType": ["armour", "armour", "armour"],
+      "rewardDesc": null,
+      "usedInRecipes": [31],
+      "isBasic": false
+    },
+    {
+      "nodeId": 64,
+      "name": "Opulent",
+      "monsterDesc": "Monster is fabulously wealthy",
+      "rewardType": [],
+      "rewardDesc": null,
+      "usedInRecipes": null,
+      "isBasic": false
+    }
+  ],
+  "recipes": [
+    {
+      "recipeId": 2,
+      "name": "Trickster",
+      "recipe": [3, 7, 4]
+    },
+    {
+      "recipeId": 3,
+      "name": "Assassin",
+      "recipe": [5, 6]
+    },
+    {
+      "recipeId": 4,
+      "name": "Empowered Elements",
+      "recipe": [9, 10, 11]
+    },
+    {
+      "recipeId": 5,
+      "name": "Evocationist",
+      "recipe": [12, 13, 14]
+    },
+    {
+      "recipeId": 6,
+      "name": "Treant Horde",
+      "recipe": [16, 17, 10]
+    },
+    {
+      "recipeId": 7,
+      "name": "Temporal Bubble",
+      "recipe": [19, 20, 21]
+    },
+    {
+      "recipeId": 8,
+      "name": "Hexxer",
+      "recipe": [11, 4]
+    },
+    {
+      "recipeId": 9,
+      "name": "Crystal-skinned",
+      "recipe": [22, 24, 25]
+    },
+    {
+      "recipeId": 10,
+      "name": "Rejuvenating",
+      "recipe": [26, 6]
+    },
+    {
+      "recipeId": 11,
+      "name": "Effigy",
+      "recipe": [20, 28, 29]
+    },
+    {
+      "recipeId": 12,
+      "name": "Corrupter",
+      "recipe": [30, 11]
+    },
+    {
+      "recipeId": 13,
+      "name": "Arakaali-touched",
+      "recipe": [32, 36, 7]
+    },
+    {
+      "recipeId": 14,
+      "name": "Corpse Detonator",
+      "recipe": [33, 35]
+    },
+    {
+      "recipeId": 15,
+      "name": "Entangler",
+      "recipe": [16, 30]
+    },
+    {
+      "recipeId": 16,
+      "name": "Necromancer",
+      "recipe": [34, 3]
+    },
+    {
+      "recipeId": 17,
+      "name": "Brine King-touched",
+      "recipe": [38, 39, 41]
+    },
+    {
+      "recipeId": 18,
+      "name": "Ice Prison",
+      "recipe": [22, 17]
+    },
+    {
+      "recipeId": 19,
+      "name": "Storm Strider",
+      "recipe": [14, 40] 
+    },
+    {
+      "recipeId": 20,
+      "name": "Heralding Minions",
+      "recipe": [42, 21]
+    },
+    {
+      "recipeId": 21,
+      "name": "Shakari-touched",
+      "recipe": [36, 44, 46]
+    },
+    {
+      "recipeId": 22,
+      "name": "Soul Eater",
+      "recipe": [45, 33, 26]
+    },
+    {
+      "recipeId": 23,
+      "name": "Drought Bringer",
+      "recipe": [28, 5]
+    },
+    {
+      "recipeId": 24,
+      "name": "Kitava-touched",
+      "recipe": [48, 49, 32, 29]
+    },
+    {
+      "recipeId": 25,
+      "name": "Abberath-touched",
+      "recipe": [50, 51, 24]
+    },
+    {
+      "recipeId": 26,
+      "name": "Flame Strider",
+      "recipe": [12, 40]
+    },
+    {
+      "recipeId": 27,
+      "name": "Tukohama-touched",
+      "recipe": [53, 54, 52]
+    },
+    {
+      "recipeId": 28,
+      "name": "Executioner",
+      "recipe": [51, 25]
+    },
+    {
+      "recipeId": 29,
+      "name": "Magma Barrier",
+      "recipe": [52, 35]
+    },
+    {
+      "recipeId": 30,
+      "name": "Innocence-touched",
+      "recipe": [56, 57, 58, 59]
+    },
+    {
+      "recipeId": 31,
+      "name": "Lunaris-touched",
+      "recipe": [60, 63, 62]
+    },
+    {
+      "recipeId": 32,
+      "name": "Frost Strider",
+      "recipe": [13, 40]
+    },
+    {
+      "recipeId": 33,
+      "name": "Invulnerable",
+      "recipe": [17, 19, 61]
+    },
+    {
+      "recipeId": 34,
+      "name": "Empowering Minions",
+      "recipe": [33, 53, 26]
+    },
+    {
+      "recipeId": 35,
+      "name": "Solaris-touched",
+      "recipe": [60, 54, 62]
+    },
+    {
+      "recipeId": 36,
+      "name": "Mirror Image",
+      "recipe": [4, 45]
+    },
+    {
+      "recipeId": 37,
+      "name": "Mana Siphoner",
+      "recipe": [61, 42]
+    }
+  ]
+}

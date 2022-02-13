@@ -1,0 +1,9 @@
+.nodeDetailsWrapper {
+  width: 80%;
+}
+
+@media only screen and (max-width: 599px) {
+  .nodeDetailsWrapper {
+    width: 100%;
+  }
+}
